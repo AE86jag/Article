@@ -24,7 +24,7 @@ git remote add origin git@github.com:AE86jag/Article.git
 
 
 ```shell
-git branch --set-upstream-to origin/master
+git branch --set-upstream-to origin master
 ```
 
 - 添加所有修改文件到暂存区
