@@ -1,0 +1,8 @@
+Synchronized锁对象、锁类；
+
+当synchronized作用于静态方法时，其锁就是当前类的class对象锁。
+
+被 synchronized 修饰的同步方法。同步方法 并不是由 monitorenter 和 monitorexit 指令来实现同步的，
+而是由方法调用指令读取运行时常量池中方法的 ACC_SYNCHRONIZED
+
+锁膨胀、锁消除、锁细化
